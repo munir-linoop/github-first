@@ -1,0 +1,14 @@
+---
+- name: deploying nfs-utils
+  hosts: prod
+  tasks:
+    - name: installing nfs-utils
+      yum:
+        name: nfs-utils
+        state: present
+
+    - name: creating user
+      user:
+        name: ali
+        state: present
+       
