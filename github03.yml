@@ -1,6 +1,6 @@
 ---
 - name: looping and creating users
-  hosts: prod
+  hosts: dev
   vars:
     users:
       - kim
