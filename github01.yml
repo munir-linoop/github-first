@@ -1,6 +1,6 @@
 ---
 - name: first github execution
-  hosts: prod
+  hosts: dev
   tasks:
     - name: restarting service sshd
       service:

@@ -1,6 +1,6 @@
 ---
 - name: deploying nfs-utils
-  hosts: prod
+  hosts: dev
   tasks:
     - name: installing nfs-utils
       yum:
