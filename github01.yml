@@ -1,0 +1,9 @@
+---
+- name: first github execution
+  hosts: prod
+  tasks:
+    - name: restarting service sshd
+      service:
+        name: sshd
+        state: restarted
+...
